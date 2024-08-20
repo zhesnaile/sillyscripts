@@ -27,3 +27,5 @@ A collection of personal scripts. Most of them could arguably just be aliases.
 * **vfio_(de)activate.sh**: switch between two configs to enable or disable [PCI passthrough via OVMF](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF) on archlinux.
 
 * **vidgrab.sh**: For when you need a video from a website and yt-dlp doesn't work, this tends to work for videos that are split among multiple files.
+
+* **dirComparer.py**: Compares two directories, this is meant to be used when a directory is being copied elsewhere. First argument is the origin dir, second argument is the destination dir. It prints missing files on both ends and files with a smaller size in the destination dir than in the origin dir (assumes they're incomplete).
